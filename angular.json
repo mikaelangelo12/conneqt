@@ -90,6 +90,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
+            "disableHostCheck": true,
             "production": {
               "browserTarget": "conneqt:build:production"
             },
@@ -97,6 +98,7 @@
               "browserTarget": "conneqt:build:development"
             }
           },
+
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
