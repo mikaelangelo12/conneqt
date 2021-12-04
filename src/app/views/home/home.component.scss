@@ -1,0 +1,34 @@
+main{
+  background-color: #f2f1ee;
+}
+.firstPart{
+  width: 50%;
+ 
+  padding:  0 2%;
+  h3{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 5em;
+    font-weight: 700;
+  }
+  .btnHomeLogin{
+    display: none;
+  }
+  .btnHome{
+    background-color: var(--cor-primary);
+    border-radius: 20px;
+    color:#fff;
+    margin-right: 45px;
+    font-weight: 500;
+    margin-top:30px;
+  }
+}
+.secondPart{
+  width: 50%;
+  height: 500px;
+  img{
+    float: right;
+    height: 100%;
+  }
+}

@@ -1,4 +1,7 @@
 @media screen and (max-width: 780px) {
+  .containerHeader{
+    width: 100%!important;
+  }
   .headerButton {
     button{
       display: none;
@@ -6,5 +9,10 @@
   }
   .logoCenter{   
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .containerHeader{
+    width: 100%!important;
   }
 }
