@@ -1,0 +1,29 @@
+@media screen and (max-width: 780px) {
+  footer{
+    background-color: var(--cor-primary);
+    margin: 0;
+  }
+ .logoCenter{
+   justify-content: center;
+ }
+  .containerFooter{
+    flex-direction: column;
+    padding:0 30px;
+  }
+  .descriptionFooter{
+    width: 100%!important;
+  }
+  .navFooter{
+    flex-direction: column;
+  }
+  .justifyText{
+    text-align: center;
+  }
+  .navFooter{
+    margin: 50px 0;
+    
+  }
+  .importantLink{
+    margin-bottom: 30px;
+  }
+}
