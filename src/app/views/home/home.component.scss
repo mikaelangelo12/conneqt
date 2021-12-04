@@ -59,8 +59,31 @@ main{
   list-style-type: none;
   font-size: 1.6em;
   font-weight: 400;
-  margin-left: -30px;
-  
+  margin-left: -30px;  
+  }
+}
+.containerTrial{
+  background-color: #f2f1ee;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  h2{
+    font-size:5em;
+  }
+  h3{
+   // width:700px;
+    font-size:1.8em
+  }
+  .btnHome{
+    background-color: var(--cor-primary);
+    border-radius: 20px;
+    color:#fff;
+    margin-right: 45px;
+    font-weight: 500;
+    margin-top:30px;
   }
 
 }
