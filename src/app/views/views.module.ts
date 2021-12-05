@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import {MatIconModule} from '@angular/material/icon';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -9,6 +10,7 @@ import {MatIconModule} from '@angular/material/icon';
   ],
   imports: [
     CommonModule,
+    RouterModule,
     MatIconModule
   ],
   exports: [HomeComponent]

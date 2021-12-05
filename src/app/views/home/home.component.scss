@@ -1,8 +1,9 @@
-main{
+
   .primarycontent{
   background-color: #f2f1ee;
+
   }
-}
+
 .firstPart{
   width: 50%;
  
@@ -85,5 +86,23 @@ main{
     font-weight: 500;
     margin-top:30px;
   }
-
+}
+.containerPhone{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .boxPhone{
+    border: 1px rgb(37, 37, 37) solid;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    padding:20px 30px!important;
+    width: 1000px;
+  }
+  .p-2{
+    margin-top: 10px;
+ 
+  }
 }
