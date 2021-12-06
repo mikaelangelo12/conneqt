@@ -97,6 +97,21 @@
       font-size: 3em;
     }
   }
+  .containerPhone{    
+    margin: 0 20px;
+  .boxPhone{
+    flex-direction: row!important;
+    border: none !important;
+    justify-content: center!important;
+    .textPhone{
+      color:var(--cor-primary);
+      
+    }
+    .textPhone2{
+      display: none
+    }
+  }
+}
 }
 @media screen and (max-width: 1280px) {
   .containterMain{

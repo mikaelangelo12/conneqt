@@ -89,20 +89,28 @@
 }
 .containerPhone{
   display:flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+  h2{
+    margin: 40px 0 10px 0;
+  }
+  h3{
+    margin:30px 0;
+    font-size: 1.2em;
+  }
+  h4{
+    margin: 30px 0;
+  }
   .boxPhone{
     border: 1px rgb(37, 37, 37) solid;
     height: 60px;
     display:flex;
     align-items: center;
-    align-content: center;
+
     padding:20px 30px!important;
     width: 1000px;
   }
   .p-2{
-    margin-top: 10px;
- 
+    margin-top: 10px; 
   }
 }

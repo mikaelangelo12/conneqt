@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "connegt-a1c43": {
+      "hosting": {
+        "conneqt": [
+          "conneqt"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "connegt-a1c43"
+  }
+}
